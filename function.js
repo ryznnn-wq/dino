@@ -33,7 +33,6 @@ function rintangan(){
         player.offsetTop + 50 <= kotak.offsetTop + 50 && 
         player.offsetLeft <= kotak.offsetLeft + 50){
             alert('game over');
-            player.setAttribute('class','freeze');
             bggerak = false;
         }else{
             rintangan();
